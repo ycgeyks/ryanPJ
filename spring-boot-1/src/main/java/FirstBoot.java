@@ -11,6 +11,11 @@ public class FirstBoot {
         return "Hello World!";
     }
 
+    @RequestMapping("/test")
+    String test() {
+        return "Test success!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(FirstBoot.class, args);
     }
