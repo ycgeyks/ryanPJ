@@ -16,6 +16,11 @@ public class FirstBoot {
         return "Test success!";
     }
 
+    @RequestMapping("/false")
+    String falseResult() {
+        return "Test false!";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(FirstBoot.class, args);
     }
