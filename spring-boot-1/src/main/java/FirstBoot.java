@@ -13,7 +13,7 @@ public class FirstBoot {
 
     @RequestMapping("/test")
     String test() {
-        return "Test success!";
+        return "Test success!!";
     }
 
     @RequestMapping("/false")
