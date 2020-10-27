@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class HyServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HyServerApplication.class, args );
+		SpringApplication.run(HyServerApplication.class, args);
 	}
 
 }
