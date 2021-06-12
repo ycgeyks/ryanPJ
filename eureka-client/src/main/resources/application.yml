@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    discovery:
+      enabled: true
+  profiles: slave2
+  application:
+    name: slave2
+server:
+  port: 8081
+---
+spring:
+  cloud:
+    discovery:
+      enabled: true
+  profiles: slave1
+  application:
+    name: slave1
+server:
+  port: 8080
